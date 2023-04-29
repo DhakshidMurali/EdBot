@@ -1,0 +1,7 @@
+.messages {
+  margin-top: 1%;
+  overflow: auto;
+  flex: auto;
+  /* width: 80%; */
+  z-index: 1;
+}

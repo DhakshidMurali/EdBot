@@ -1,0 +1,101 @@
+.messageBox {
+  color: #828282;
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+}
+
+.messageText {
+  font-family: "Roboto-Sans";
+  letter-spacing: 0;
+  float: left;
+  font-size: 1em;
+  word-wrap: break-word;
+}
+
+.floatRight {
+  float: right;
+}
+.messageText img {
+  vertical-align: middle;
+}
+
+.messageContainer {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: flex-end;
+  padding: 0 5%;
+  margin-top: 3px;
+}
+
+.sentText {
+  background-color: red;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: Helvetica;
+  color: #828282;
+  letter-spacing: 0.3px;
+}
+
+.pl-10 {
+  /* padding-left: 10px; */
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+  color: white;
+}
+
+.backgroundBlue {
+  background-color: #404258;
+}
+
+.backgroundLight {
+  background-color: #404258;
+}
+
+.audioButton {
+  height: 30%;
+  cursor: pointer;
+  align-self: center;
+  background-color: transparent;
+  background: transparent;
+  /* border: none; */
+  padding: 0.5%;
+  margin: 0.5%;
+}
+.alignItems {
+  display: flex;
+  flex-direction: row;
+}
+.thumbsDown {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.Toastify__toast--success {
+  background: #404258 !important;
+  font-weight: 700;
+}
