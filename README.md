@@ -2,7 +2,7 @@
 * A full-stack multilingual chatbot application built using **React, Django, and Node.js**. The chatbot UI supports Tamil and English, accepts both text and voice input, and stores unrecognized questions in a database for later review and model improvement.
 
 ## 🧱 Built With
-**Frontend**: React.js, i18next for localization, Web Speech API
+**Frontend**: React.js
 
 **Backend**: Django, NodeJs
 
