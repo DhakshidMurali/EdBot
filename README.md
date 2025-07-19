@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Multilingual Chatbot – React + Django + Node.js
+* A full-stack multilingual chatbot application built using **React, Django, and Node.js**. The chatbot UI supports Tamil and English, accepts both text and voice input, and stores unrecognized questions in a database for later review and model improvement.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🧱 Built With
+**Frontend**: React.js, i18next for localization, Web Speech API
 
-## Available Scripts
+**Backend**: Django, NodeJs
 
-In the project directory, you can run:
+**Database**: MongoDB 
 
-### `npm start`
+## 🚀 Features
+🌐 **Multilingual UI**: Toggle between Tamil and English.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+💬 **Text & Voice Input**: Users can interact with the chatbot using typed text or recorded voice.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🤖 **AI-powered Bot Engine**: Handles user queries using a trained model.
 
-### `npm test`
+🧠 **Fallback Logging**: If the chatbot doesn't understand a question, it logs the query to the database for further training.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🖥️ **React Frontend**: Modern, responsive interface for seamless interaction.
 
-### `npm run build`
+🌐 **Node.js Voice Processing**: Stores user queries and fallback logs, handles API communication.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠️ **Django Backend**: Handles speech-to-text and text-to-speech functionality.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📸 Preview
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Alt Text](https://drive.google.com/thumbnail?id=1v-BngOLYAKmKkhSCHzyXxj2evuy0NDNV&sz=w1000)
 
-### `npm run eject`
+📁 Drive Folder - 
+[Images and Documents](https://drive.google.com/drive/folders/19pVZnsEGRS3S5CAxFHeHWoZ88ANm9SoL)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
