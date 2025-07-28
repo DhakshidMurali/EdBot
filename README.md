@@ -28,7 +28,7 @@
 ![Alt Text](https://drive.google.com/thumbnail?id=1v-BngOLYAKmKkhSCHzyXxj2evuy0NDNV&sz=w1000)
 
 📁 Drive Folder - 
-[Images and Documents](https://drive.google.com/drive/folders/19pVZnsEGRS3S5CAxFHeHWoZ88ANm9SoL)
+[Images and Documents](https://drive.google.com/drive/folders/17ph_4qMe3d1J3DOL-xSiOV3oca83QmzP?usp=drive_link)
 
 
 
